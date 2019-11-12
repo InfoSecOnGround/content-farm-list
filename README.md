@@ -5,7 +5,7 @@ Mainly focused on those known content farm spreading fake news in HK.
 參考報導：
 * (2019-10-26) [不同網址的內容農場，背後疑由同一集團操作 - The News Lens 關鍵評論網](https://www.thenewslens.com/article/126592)
 
-Last Update / 最後更新（2019-11-12 08xx）
+Last Update / 最後更新（2019-11-12 09xx）
 **歡迎幫忙更新**
 
 
@@ -58,3 +58,28 @@ Mac 的 Safari 也支援 extensions，但不知道那個比較好用。（[RoadB
 https://raw.githubusercontent.com/InfoSecOnGround/content-farm-list/master/hk-fake-news.txt
 ```
 
+## 注意事項
+### Firefox Add-ons 權限問題
+有眼利的網友指出上述 add-ons 要求頗多的權限：
+* Access you data for all websites
+* Access browsing history
+* Access browser tabs
+* Store unlimited amount of client-side data
+
+有此擔心是絕對正常的，畢竟以上權限代表此 add-on 可以讀取你瀏覽的所有網站內容。但考慮到 add-on 功能所需，似乎不是不合理：
+* 首3個權限應該是讓 add-on 可以讀取正在開啟的頁面，在正式載入內容之前檢查一下網址。而此 add-on 要有能力檢查所有網站，所以 scope 要設定為 all websites
+* 第4個權限大概容許 add-on 將 blacklist/whitelist 存放在本機之內，避免因查詢而將每次瀏覽的詳請洩漏到其他伺服器，加強保障私隱亦同時增加查詢速度。
+
+但本人未能抽空逐一檢查 source code，各位有興趣的話可以幫忙看一下。
+
+針對這個潛在風險，可以採取以下措施：
+1. 將 Firefox 設定為預設瀏覽器，瀏覽一般網站、看新聞時可以用此 add-on 檢查是否內容農場。而當有需要瀏覽重要網站時，可以轉用其他瀏覽器。此舉在手機/平板上尤其有效，在 Android 上更可不設定預設瀏覽器，每次依用途決定用哪個瀏覽器。
+
+2. 此 add-on 是 open source，大家有懷疑可以自行檢查。當然未必可以完全防止
+
+3. 當然如果能夠不靠這些工具自行分辨出內容農場就更好了。要分辨其實不難，通常內容農場都有以下特徵：
+   * URL 看上去和其他正式網站，如新聞網站、知名論壇等有關係。也經常在域名中加入字眼暗示自己的功能，如 press 之類。
+   * 標題及附圖通常很震撼，如果是為了帶風向的話，更會圍繞最熱門的話題，將內容東併西湊，然後加入一些虛假的資料。
+   * 網站內通常附有大量廣告等等，文章也可能沒有出處或引用錯誤的出處
+   
+   
