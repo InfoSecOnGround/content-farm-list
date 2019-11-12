@@ -2,8 +2,9 @@
 主要針對香港散播假新聞那些已知的內容農場。
 Mainly focused on those known content farm spreading fake news in HK.
 
-參考報導：
+參考報導及資料：
 * (2019-10-26) [不同網址的內容農場，背後疑由同一集團操作 - The News Lens 關鍵評論網](https://www.thenewslens.com/article/126592)
+* 報導中提到的[內容農場分析資料](https://docs.google.com/spreadsheets/d/1VGBqGclxZS17nzKqhc1t2Hfd4BgEPSy0TGDE9Pi8s4I/edit#gid=827326054)
 
 Last Update / 最後更新（2019-11-12 09xx）
 **歡迎幫忙更新**
