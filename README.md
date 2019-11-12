@@ -5,7 +5,7 @@ Mainly focused on those known content farm spreading fake news in HK.
 參考報導：
 * (2019-10-26) [不同網址的內容農場，背後疑由同一集團操作 - The News Lens 關鍵評論網](https://www.thenewslens.com/article/126592)
 
-Last Update / 最後更新（2019-11-12）
+Last Update / 最後更新（2019-11-12 08xx）
 **歡迎幫忙更新**
 
 
@@ -14,7 +14,8 @@ Last Update / 最後更新（2019-11-12）
 #### 手機 / 平板
 因為 Android 內置的 Chrome 支援 add-ons，而 iOS 的 Safari 雖支援但不清楚那個好用，大家可以考慮使用 Firefox for Mobile：
 * Android: https://play.google.com/store/apps/details?id=org.mozilla.firefox
-* iOS: https://apps.apple.com/us/app/firefox-private-safe-browser/id989804926
+* ~~iOS: https://apps.apple.com/us/app/firefox-private-safe-browser/id989804926~~
+更正：Firefox 的 iOS 版本也[不支援 Add-ons](https://support.mozilla.org/en-US/kb/add-ons-firefox-ios)，多謝網友提醒。看來只能用 Safari 的 extension，有人知道那款較好嗎？
 
 #### 電腦
 電腦的話用 Chrome / Firefox 其本上也可以可以。
